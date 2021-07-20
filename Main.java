@@ -2,7 +2,7 @@ class Main {
   
   public static void main(String[] args) {
     // Part 1
-    Image image = loadImage("pup.jpeg");
+    Image image = new Image("pup.jpeg");
     System.out.println(image.getBlackWhiteAscii()); 
     // Part 2
     //System.out.println(image.getGreyAscii());
