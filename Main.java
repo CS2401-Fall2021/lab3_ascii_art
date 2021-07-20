@@ -13,3 +13,4 @@ class Main {
     // Part 4
     //System.out.println(image.getResizedGreyAscii(100,100));
   }
+}
