@@ -11,5 +11,5 @@ class Main {
     //System.out.println(image.getRotatedGreyAscii());
     
     // Part 4
-    //System.out.println(image.getCroppedGreyAscii());
+    //System.out.println(image.getResizedGreyAscii(100,100));
   }
