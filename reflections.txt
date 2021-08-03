@@ -8,7 +8,6 @@ what happens to the first column?
 if the image width is 4, and the height is 4, where does the pixel at 2,1 go?
 
 in general, if a pixel in an image that is width of w and height h, where does the pixel at position i,j go to in the new array
-Copy any paste your output into greyRotatedAscii.txt
 
 Part 4: Image resizing
 clarifying questions (5 pts)
