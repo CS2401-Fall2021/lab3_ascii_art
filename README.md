@@ -31,7 +31,9 @@ Here is an example of an image represented by very few pixels
 2. In the main file, update the name of the image file to be your new image. 
 3. For each value in your outputted 2D array, convert to an char array using the following conversion logic in the convertToBlackWhiteAsciiImage
  
-If the integer value is less than 128, the charachter is a capital 'X'. Otherwise, it should be 126.
+If the integer value is less than 128, the charachter is a capital 'X'. Otherwise, it should be an empty space. 
+
+
 4. print out your char array. Copy and paste it in your blackWhiteAscii.txt file
 
 ## Part 2: Greyscale ascii (15 pts)
