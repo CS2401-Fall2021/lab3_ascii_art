@@ -29,7 +29,7 @@ Here is an example of an image represented by very few pixels
 
 1. Find a small png image (or you can use the one you provided). Download it and add it to this folder
 2. In the main file, update the name of the image file to be your new image. 
-3. For each value in your outputted 2D array, convert to an char array using the following conversion logic in the convertToBlackWhiteAsciiImage
+3. For each value in your outputted 2D array, convert to a char array using the following conversion logic in the getBlackWhiteAscii method
  
 If the integer value is less than 128, the charachter is a capital 'X'. Otherwise, it should be an empty space. 
 
@@ -37,7 +37,7 @@ If the integer value is less than 128, the charachter is a capital 'X'. Otherwis
 4. print out your char array. Copy and paste it in your blackWhiteAscii.txt file
 
 ## Part 2: Greyscale ascii (15 pts)
-That isn't super detailed. Let's make it a little more interesting. instead of having only two charachter values let's use convertToGreyAsciiImage
+That isn't super detailed. Let's make it a little more interesting. instead of having only two charachter values let's use getGreyAscii
 * 0 to 25:‘M’
 * 26 to 50:‘$’
 * 51 to 76:‘o’
@@ -52,7 +52,7 @@ That isn't super detailed. Let's make it a little more interesting. instead of h
 Copy any paste your output into greyAscii.txt
 
 ## Part 3: Image rotation (35 pts)
-Now let's rotate the image in the rotateAsciiArray method.
+Now let's rotate the image in the getRotatedGreyAscii method.
 Here is an example of a simple rotated square
 
 
@@ -77,7 +77,7 @@ Copy any paste your output into greyRotatedAscii.txt
 What if we have a really big image? If we try and run it through our program, 
 the ascii art doesn't show up nicely because it is too big. 1000's of pixels don't show up nicely in our terminal. What can we do?
 
-The answer is that we can resize our image to a desired size. 
+The answer is that we can resize our image to a desired size. We will do this in the getResizedGreyAscii method
 
 
 ![image resize](https://1mhowto.com/wp-content/uploads/2014/12/app-resizeme-512.png)
