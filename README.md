@@ -38,16 +38,16 @@ If the integer value is less than 128, the charachter is a capital 'X'. Otherwis
 
 ## Part 2: Greyscale ascii (15 pts)
 That isn't super detailed. Let's make it a little more interesting. instead of having only two charachter values let's use getGreyAscii
-* 0 to 25:‘M’
-* 26 to 50:‘$’
-* 51 to 76:‘o’
-* 77 to 102:‘|’
-* 103 to 127: ‘*’
-* 128 to 152: ‘:’
-* 153 to 178: ‘=’
-* 179 to 204: ‘\’’ (note the escape character before the single-quote)
-* 205 to 230: ‘.’
-* 231 to 255: ‘ ’ (i.e., a single space)
+* 0 to 24:‘M’
+* 25 to 50:‘$’
+* 50 to 75:‘o’
+* 76 to 101:‘|’
+* 102 to 126: ‘*’
+* 127 to 151: ‘:’
+* 152 to 177: ‘=’
+* 178 to 203: ‘\’’ (note the escape character before the single-quote)
+* 204 to 229: ‘.’
+* 230 to 256: ‘ ’ (i.e., a single space)
 
 Copy any paste your output into greyAscii.txt
 
